@@ -1,0 +1,47 @@
+# Built with Jekyll 3.2.0
+
+# Setup
+title:               Open Recognition Alliance Help Line
+tagline:             'Get started with Open Badges with help from our experts'
+description:         'The ORA offers the assistance of some invited experts'
+url:                 'http://openrecognition.org'
+baseurl:             ''
+
+# About/contact
+author:
+  name:              Nate Otto
+  url:               https://twitter.com/ottonomy
+  email:             nate@ottonomy.net
+
+# Permalinks
+
+permalink: pretty
+permalink: /:title/
+
+# Set encoding to UTF-8
+encoding: utf-8
+
+# Collections for texts
+collections:
+  texts:
+    output: true
+
+# Markdown specs
+markdown: kramdown
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  footnote_backlink: "&#x21a9;&#xfe0e;"
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Custom vars
+version:             0.0.6
+
+# Exclusions from the final site
+exclude: [optional, vendor]
+
+

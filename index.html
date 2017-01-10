@@ -1,0 +1,40 @@
+---
+layout: page
+title: "Get started with Open Badges"
+---
+<div class="introduction" style="margin-bottom: 5em;">
+  <p>
+    Do you have questions about how to get started with Open Badges or other Open 
+    Recognition technologies and practices? Submit your question here, and it will
+    be referred to the team of consultants working with the
+    <a href="http://openrecognition.org/" target="_blank">Open Recognition
+    Alliance</a>. Each consultant has over 3 years experience in the field, and
+    while consultants may be affiliated with specific commercial offerings, they
+    are all committed to providing a balanced perspective of the options available
+    in this open, collaborative ecosystem.
+  </p>
+</div>
+
+<form action="https://formspree.io/ottonomy+iu0rprmgk4rnu3ce5gqh@boards.trello.com"
+      method="POST">
+  <h2><legend>Send us an email!</legend></h3>
+  <hr>
+  <p>
+    <label for="name">Name:</label><br />
+    <input type="text" name="name" style="width: 100%; padding: 0.5em;" />
+  </p>
+  <p>
+    <label for="_replyto">Your Email Address:</label><br />
+    <input type="email" name="_replyto" style="width: 100%; padding: 0.5em;" />
+  </p>
+  <p>
+    <label for="comment">Question/Comment:</label><br />
+    <textarea name="comment" style="width: 100%; height: 20em;"></textarea>
+  </p>
+
+  <input type="hidden" name="_subject" value="Open Recognition Query" />
+  <input type="hidden" name="_next" value="{{ site.baseurl }}/thanks.html" />
+  <input type="text" name="_gotcha" style="display:none" />
+
+  <input type="submit" class="btn" value="Send" />
+</form>
