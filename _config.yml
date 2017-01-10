@@ -5,7 +5,7 @@ title:               Open Recognition Alliance Help Line
 tagline:             'Get started with Open Badges with help from our experts'
 description:         'The ORA offers the assistance of some invited experts'
 url:                 'http://openrecognition.org'
-baseurl:             ''
+baseurl:             '/help'
 
 # About/contact
 author:
